@@ -4,7 +4,15 @@
 :root {
   --labels-inter-12-font-family: "Poppins", Helvetica, sans-serif;
 }
-body,
+body {
+  font-family: "Poppins", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 button,
 input,
 textarea,
@@ -16,11 +24,13 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 
 .landing-page .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 
 .landing-page .div {
@@ -341,11 +351,13 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 
 .login-sign-up-page .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 
 .login-sign-up-page .div {
@@ -667,6 +679,7 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 
 .location-access-page .frame {
@@ -878,11 +891,13 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 
 .home-page .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 
 .home-page .div {
@@ -1310,10 +1325,12 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 .event-details-page .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 .event-details-page .div {
   width: 430px;
@@ -1711,10 +1728,12 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 .search-page .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 .search-page .div {
   width: 430px;
@@ -2148,10 +2167,12 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 .favorites-page .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 .favorites-page .div {
   width: 430px;
@@ -2540,10 +2561,12 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 .map-view-page .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 .map-view-page .div {
   width: 430px;
@@ -2872,10 +2895,12 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 .profile-page .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 .profile-page .div {
   width: 430px;
@@ -3193,10 +3218,12 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 .settings-page .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 .settings-page .div {
   width: 430px;
@@ -3579,10 +3606,12 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 .notifications-page .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 .notifications-page .div {
   width: 430px;
@@ -3930,10 +3959,12 @@ select {
   min-width: 430px;
   min-height: 932px;
   display: flex;
+  justify-content: center;
 }
 .feedback-contact .frame {
   width: 430px;
   display: flex;
+  position: relative;
 }
 .feedback-contact .div {
   width: 430px;
